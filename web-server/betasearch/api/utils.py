@@ -239,7 +239,7 @@ def get_actual_reply_count(doc):
     q = "replied_to_tweet_id:" + doc['id']
     q = urllib.parse.quote(q, encoding="UTF-8")
 
-    reply_query = 'http://' + '3.20.12.127' + ':8983/solr/' + 'IRF21P1_demo' + '/query?q=' + \
+    reply_query = 'http://' + '18.190.13.51' + ':8983/solr/' + 'IRF21P1_demo' + '/query?q=' + \
                   q + '&facet=true&facet.field=sentiment'
     response = requests.get(reply_query)
     json_response = response.json()
@@ -265,15 +265,15 @@ if __name__ == '__main__':
     arg_type = arguments[1]
     if arg_type == "1":
         print("coming in 1")
-        do_sentiment_analysis(core='IRF21P1_demo', aws_url='3.20.12.127', total_docs=400000)  # Kavi
+        do_sentiment_analysis(core='IRF21P1_demo', aws_url='18.190.13.51', total_docs=400000)  # Kavi
     elif arg_type == "2":
-        change_country_case(core='IRF21P1_demo', aws_url='3.20.12.127', total_docs=400000)
+        change_country_case(core='IRF21P1_demo', aws_url='18.190.13.51', total_docs=400000)
     elif arg_type == "3":
-        update_actual_reply_count(core='IRF21P1_demo', aws_url='3.20.12.127', total_docs=80000)
+        update_actual_reply_count(core='IRF21P1_demo', aws_url='18.190.13.51', total_docs=80000)
     else:
         print("coming in")
-        #get_tweet_insights(core='IRF21P1_demo', aws_url='3.20.12.127', total_docs=380000)  
-        get_top_influencers(core='IRF21P1_demo', aws_url='3.20.12.127')
+        #get_tweet_insights(core='IRF21P1_demo', aws_url='18.190.13.51', total_docs=380000)  
+        get_top_influencers(core='IRF21P1_demo', aws_url='18.190.13.51')
     # else:
     #     print("updating the metrics fileds")
-    #     populate_metrics_data(core='IRF21P1_demo', aws_url='3.20.12.127', total_docs=380000) #entire corpus to populate replies_count,retweets_count,quotes_count
+    #     populate_metrics_data(core='IRF21P1_demo', aws_url='18.190.13.51', total_docs=380000) #entire corpus to populate replies_count,retweets_count,quotes_count

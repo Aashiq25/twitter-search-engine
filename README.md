@@ -4,7 +4,7 @@ Search Engine Lamda was built to dissect twitter data to analyze government and 
 attitudes towards Covid and vaccines. Tweet data from the USA, India, and Mexico have
 been analyzed for three languages namely English, Hindi, and Spanish.
 
-[Live Demo](http://3.20.12.127:8080/search)
+[Live Demo](http://18.190.13.51:8080/search)
 
 Video Demo - [https://www.youtube.com/watch?v=-z5HASjF3dQ&t=2s](https://www.youtube.com/watch?v=-z5HASjF3dQ&t=2s)
 

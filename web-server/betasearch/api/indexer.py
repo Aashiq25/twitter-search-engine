@@ -7,7 +7,7 @@ import requests
 
 CORE_NAME = "IRF21P1_demo"
 # AWS_IP = "ec2-18-218-166-215.us-east-2.compute.amazonaws.com"
-AWS_IP = "3.20.12.127"
+AWS_IP = "18.190.13.51"
 
 
 # AWS_IP = "localhost"
@@ -30,7 +30,8 @@ class Indexer:
     def __init__(self):
         self.solr_url = 'http://' + AWS_IP + ':8983/solr/'
         self.core_url = self.solr_url + CORE_NAME
-        self.connection = pysolr.Solr(self.core_url, always_commit=True, timeout=50000)
+        self.connection = pysolr.Solr(
+            self.core_url, always_commit=True, timeout=50000)
 
     def do_initial_setup(self):
         delete_core()
