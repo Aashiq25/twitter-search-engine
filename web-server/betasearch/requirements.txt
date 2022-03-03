@@ -1,0 +1,8 @@
+Django==3.2.9
+djangorestframework==3.13.1
+GoogleNews==1.6.0
+googletrans==4.0.0rc1
+protobuf==3.19.4
+pysolr==3.9.0
+requests==2.26.0
+tweepy==3.10.0
