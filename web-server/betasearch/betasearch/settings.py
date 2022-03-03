@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+import django_heroku
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +27,7 @@ SECRET_KEY = 'django-insecure-kf5z0p8d=5-a5c2eie8wb1ow%s(qe7c6x2=brcx=dxqn(3z_95
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.190.13.51', 'localhost']
+ALLOWED_HOSTS = ['18.190.13.51', 'localhost', 'https://tw-lamda.netlify.app']
 
 
 # Application definition
@@ -76,12 +78,12 @@ WSGI_APPLICATION = 'betasearch.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 
 # Password validation
@@ -128,4 +130,6 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORE = 'IRF21P1_demo'
-AWS_URL = '18.190.13.51'
+AWS_URL = '3.142.9.9'
+
+django_heroku.settings(locals())
