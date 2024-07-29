@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const http = axios.create({
-    baseURL: 'https://ma-twitter-search-engine.herokuapp.com/',
+    baseURL: 'https://twitter-search-engine.onrender.com/',
     headers: {
         'Content-type': 'application/json',
     },
