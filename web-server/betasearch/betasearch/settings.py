@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-kf5z0p8d=5-a5c2eie8wb1ow%s(qe7c6x2=brcx=dxqn(3z_95
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.190.13.51', 'localhost', 'https://tw-lamda.netlify.app']
+ALLOWED_HOSTS = ['18.190.13.51', 'https://twitter-search-engine.onrender.com', 'localhost', 'https://tw-lamda.netlify.app']
 
 
 # Application definition
