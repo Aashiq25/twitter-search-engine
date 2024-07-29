@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import django_heroku
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,7 +26,7 @@ SECRET_KEY = 'django-insecure-kf5z0p8d=5-a5c2eie8wb1ow%s(qe7c6x2=brcx=dxqn(3z_95
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.190.13.51', 'payable-neda-aashiq-192277fe.koyeb.app', 'http://payable-neda-aashiq-192277fe.koyeb.app', 'https://payable-neda-aashiq-192277fe.koyeb.app', 'localhost', 'https://tw-lamda.netlify.app']
+ALLOWED_HOSTS = ['127.0.0.1', '18.190.13.51', 'payable-neda-aashiq-192277fe.koyeb.app', 'http://payable-neda-aashiq-192277fe.koyeb.app', 'https://payable-neda-aashiq-192277fe.koyeb.app', 'localhost', 'https://tw-lamda.netlify.app']
 
 
 # Application definition
@@ -130,6 +129,5 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORE = 'IRF21P1_demo'
-AWS_URL = '18.189.189.150'
-django_heroku.settings(locals())
+AWS_URL = '18.226.226.38'
 
