@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const http = axios.create({
-    baseURL: 'https://twitter-search-engine.onrender.com/',
+    baseURL: 'https://payable-neda-aashiq-192277fe.koyeb.app/',
     headers: {
         'Content-type': 'application/json',
     },
