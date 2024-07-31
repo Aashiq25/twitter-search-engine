@@ -130,6 +130,6 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORE = 'IRF21P1_demo'
-AWS_URL = '18.226.226.38'
+AWS_URL = '35.226.22.53'
 
 django_heroku.settings(locals())
