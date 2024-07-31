@@ -42,6 +42,14 @@ Analytics → Highcharts
 
 Sentiment Analysis → Google Natural Language AI
 
+**Sample Screenshots**
+
+<img width="1440" alt="Screenshot 2024-07-31 at 1 02 31 PM" src="https://github.com/user-attachments/assets/b348dc46-741b-4161-a0be-645086a4321e">
+
+
+<img width="1440" alt="Screenshot 2024-07-31 at 1 02 19 PM" src="https://github.com/user-attachments/assets/8e1479ec-9027-402c-b0c8-fe8327e1c1a3">
+
+
 **Team Members**
 
 1. Muhamed Aashiq
