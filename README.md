@@ -1,10 +1,10 @@
-# Lamda - COVID Tweet Search Engine
+# Lambda - COVID Tweet Search Engine
 
-Search Engine Lamda was built to dissect twitter data to analyze government and public
+Search Engine Lambda was built to dissect twitter data to analyze government and public
 attitudes towards Covid and vaccines. Tweet data from the USA, India, and Mexico have
 been analyzed for three languages namely English, Hindi, and Spanish.
 
-[Live Demo](https://tw-lamda.netlify.app/search)
+[Live Demo](https://tw-lambda.netlify.app/search)
 
 Video Demo - [https://www.youtube.com/watch?v=-z5HASjF3dQ&t=2s](https://www.youtube.com/watch?v=-z5HASjF3dQ&t=2s)
 

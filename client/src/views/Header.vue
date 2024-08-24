@@ -39,7 +39,7 @@
         <div>
             <div class="flex flex-row justify-center items-center">
                 <InlineSvg src="app-icon" iconClass="icon size-l"></InlineSvg>
-                <div class="title-text font-color1 size-18 ml-2">Lamda</div>
+                <div class="title-text font-color1 size-18 ml-2">Lambda</div>
             </div>
         </div>
     </div>

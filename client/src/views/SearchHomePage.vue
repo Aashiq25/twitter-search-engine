@@ -5,7 +5,7 @@
                 src="app-icon"
                 iconClass="icon size-120 mr-5"
             ></InlineSvg>
-            <div class="title-text">Lamda</div>
+            <div class="title-text">Lambda</div>
         </div>
         <div class="flex flex-row mt-10 w-96">
             <el-input
