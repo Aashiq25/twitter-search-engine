@@ -44,10 +44,11 @@ Sentiment Analysis → Google Natural Language AI
 
 **Sample Screenshots**
 
-<img width="1440" alt="Screenshot 2024-07-31 at 1 02 31 PM" src="https://github.com/user-attachments/assets/b348dc46-741b-4161-a0be-645086a4321e">
+<img width="1437" alt="Screenshot 2024-08-23 at 8 30 31 PM" src="https://github.com/user-attachments/assets/d597ed53-13a1-4349-a2bc-38a44af9615a">
+
+<img width="1440" alt="Screenshot 2024-08-23 at 8 31 02 PM" src="https://github.com/user-attachments/assets/e3dc96aa-4c1a-4c9b-8ca0-75faf8c197fc">
 
 
-<img width="1440" alt="Screenshot 2024-07-31 at 1 02 19 PM" src="https://github.com/user-attachments/assets/8e1479ec-9027-402c-b0c8-fe8327e1c1a3">
 
 
 **Team Members**
